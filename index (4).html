@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0812"><title>THE AZAZELS — Official Community Hub</title>
+<style>
+:root{--bg:#080710;--panel:#100e1b;--panel2:#151126;--line:#29213e;--purple:#a875ff;--purple2:#6d35cb;--text:#f4efff;--muted:#aaa0c4;--good:#65dda0;--gold:#e6c17c;--radius:18px}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#332052 0,transparent 45%),var(--bg);color:var(--text);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}button,input,textarea{font:inherit}button{cursor:pointer}.wrap{max-width:1440px;margin:auto;padding:18px}.banner{min-height:178px;border:1px solid #3a2a56;border-radius:22px;overflow:hidden;position:relative;display:flex;align-items:center;padding:30px 36px;background:linear-gradient(100deg,rgba(7,5,15,.96),rgba(28,13,49,.78),rgba(7,5,15,.86)),radial-gradient(circle at 70% 40%,#7545a6,transparent 32%),linear-gradient(135deg,#100a1d,#26183b 55%,#080710);box-shadow:0 15px 50px #0008}.banner:after{content:"✦";position:absolute;right:19%;top:-54px;font-size:250px;color:#c9a4ff12;transform:rotate(14deg)}.sigil{height:90px;width:90px;display:block;object-fit:cover;border:1px solid #8d5fca;border-radius:50%;box-shadow:0 0 28px #7c45bb55;margin-right:25px;flex-shrink:0}.eyebrow{letter-spacing:.28em;text-transform:uppercase;font-size:10px;color:#c4a6f2}.banner h1{font:clamp(26px,4vw,42px) Georgia,'Times New Roman',serif;letter-spacing:.17em;margin:4px 0 2px}.banner p{margin:0;color:#c2b5da;letter-spacing:.2em;font-size:11px;text-transform:uppercase}.motto{margin-left:auto;max-width:200px;text-align:right;font:14px/1.9 Georgia,serif;letter-spacing:.13em;color:#d9c8f6;z-index:1}.layout{display:grid;grid-template-columns:220px minmax(0,1fr) 300px;gap:16px;margin-top:16px}.panel{background:linear-gradient(145deg,#12101e,#0c0b15);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:0 12px 35px #0002}.side{display:flex;flex-direction:column;gap:5px}.brandmini{display:flex;align-items:center;gap:11px;padding:3px 4px 18px;border-bottom:1px solid var(--line);margin-bottom:8px}.miniicon{width:38px;height:38px;border:1px solid #6e479f;border-radius:12px;display:block;object-fit:cover}.brandmini strong{display:block;font:16px Georgia;letter-spacing:.06em}.brandmini small{color:var(--muted)}.nav{display:flex;align-items:center;gap:12px;text-decoration:none;color:#c5bdd7;padding:11px 12px;border-radius:11px;font-size:13px}.nav .ico{width:18px;text-align:center;color:#bda0e9}.nav.active,.nav:hover{background:linear-gradient(90deg,#482779,#291a43);color:white}.sidequote{margin-top:auto;padding:30px 8px 10px;text-align:center;color:#b49acb;font:12px/2 Georgia;letter-spacing:.2em}.main{display:flex;flex-direction:column;gap:16px;min-width:0}.welcome{min-height:220px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:linear-gradient(0deg,#0a0814eF,#0a081466),radial-gradient(ellipse at 50% 110%,#7540a0,transparent 52%),linear-gradient(135deg,#171022,#342149,#0a0812)}.welcome:before,.welcome:after{content:"";position:absolute;width:190px;height:230px;border:1px solid #c7a0ff16;transform:rotate(35deg);top:25px}.welcome:before{left:-90px}.welcome:after{right:-90px}.crown{font-size:24px;color:#c9a5ff}.welcome h2{font:clamp(26px,4vw,36px) Georgia;letter-spacing:.14em;margin:5px 0 12px}.welcome .sub{font-size:10px;letter-spacing:.2em;color:#d3c0ed}.btn{border:1px solid #8152bf;background:#211332;color:#e7d7ff;border-radius:10px;padding:10px 15px;font-weight:600;font-size:12px;transition:.2s}.btn:hover{background:#3b205b}.btn.primary{background:linear-gradient(110deg,#6b35ad,#43216e)}.welcome .btn{margin-top:20px}.sectionhead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:13px}.sectionhead h3{margin:0;font-size:14px;font-weight:650}.sectionhead .icon{color:var(--purple);margin-right:7px}.live{color:var(--good);font-size:11px}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.stat{background:linear-gradient(145deg,#171426,#0e0c17);border:1px solid #29223b;border-radius:13px;padding:14px 8px;text-align:center;min-width:0}.stat .bigico{font-size:22px;color:var(--purple);margin-bottom:5px}.stat .label{font-size:11px;color:#b8accf}.stat .value{font:22px Georgia;margin:5px 0}.stat .hint{font-size:10px;color:#9288a9}.progressbox{margin-top:12px;border:1px solid #28213a;border-radius:13px;padding:13px}.progresshead{display:flex;justify-content:space-between;font-size:12px;margin-bottom:10px}.track{height:8px;background:#252037;border-radius:20px;overflow:hidden}.track span{display:block;height:100%;width:66%;background:linear-gradient(90deg,#7133c1,#bf91ff);border-radius:20px}.tiers{display:grid;grid-template-columns:repeat(6,1fr);gap:3px;margin-top:12px;text-align:center}.tier{font-size:10px;color:#968cae}.tier b{display:block;font-size:17px;color:#9f8cbf;margin-bottom:2px}.tier.current{color:#f4eaff}.tier.current b{color:#d5aaff;text-shadow:0 0 14px #a75dff}.newslist{display:flex;flex-direction:column}.newsitem{display:grid;grid-template-columns:36px minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 0;border-top:1px solid #211c30}.newsitem:first-child{border-top:0}.newsicon{height:34px;width:34px;border-radius:10px;display:grid;place-items:center;background:#1c142b;font-size:17px}.newsitem strong{display:block;font-size:12px}.newsitem p{margin:3px 0 0;color:#9d93b2;font-size:11px}.newsdate{font-size:10px;color:#9489aa;white-space:nowrap}.right{display:flex;flex-direction:column;gap:14px}.announce{background:#100e1a;border:1px solid #2a213c;border-radius:13px;overflow:hidden}.announcehead{padding:11px;background:#171126;display:flex;justify-content:space-between;gap:6px;font-size:12px}.announcebody{padding:13px;font-size:12px;color:#d4cde0}.announcebody p{margin:0 0 9px}.announcebody ul{padding-left:18px;margin:5px 0 10px}.byline{color:#bba0ec;font-style:italic}.themebanner{border-radius:12px;border:1px solid #62408c;padding:17px 12px;background:linear-gradient(110deg,#130b20,#3c1a5d,#120b20);display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:10px}.themebanner .A{font:33px Georgia;color:#d8b7ff}.themebanner span{font:16px Georgia;letter-spacing:.12em}.swatches{display:flex;justify-content:center;gap:10px;margin:9px 0 15px}.swatch{width:23px;height:23px;border:2px solid #ffffff30;border-radius:50%;padding:0}.swatch.selected{outline:2px solid #e8d8ff;outline-offset:2px}.theme-row{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-top:1px solid #211c30;font-size:11px}.theme-row span{color:#9e93b4}.theme-row b{font-weight:500;text-align:right}.quicklinks{display:grid;grid-template-columns:1fr 1fr;gap:8px}.quicklinks button{font-size:11px;padding:11px 7px;background:#12101e;border:1px solid #29213b;border-radius:10px;color:#d9ccee}.footer{text-align:center;color:#76698f;font-size:9px;letter-spacing:.22em;padding:22px 8px 10px}.footer strong{color:#aa8cd8}.editnote{display:none;border:1px solid #7750aa;background:#1b1129;border-radius:10px;padding:10px 12px;font-size:12px;color:#ddcaff;margin-bottom:12px}.editing .editnote{display:block}.editing [data-edit]{outline:1px dashed #a875ff;outline-offset:3px;cursor:text}.editing [data-edit]:focus{outline:2px solid #c9a5ff}.editing .editable-controls{display:block}.editable-controls{display:none;margin-top:10px}.editor{display:none;position:fixed;inset:0;background:#000a;z-index:5;align-items:center;justify-content:center;padding:18px}.editor.open{display:flex}.modal{width:min(500px,100%);max-height:90vh;overflow:auto;background:#100d1b;border:1px solid #5d3b86;border-radius:18px;padding:20px;box-shadow:0 20px 90px #000}.modal h3{margin-top:0}.field{display:block;margin:12px 0;font-size:12px;color:#c7b8dd}.field input,.field textarea{display:block;width:100%;margin-top:6px;background:#090811;border:1px solid #34274a;border-radius:9px;padding:10px;color:white}.field textarea{min-height:80px;resize:vertical}.modalactions{display:flex;gap:8px;justify-content:flex-end;margin-top:15px}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#201532;border:1px solid #654292;color:#f2e8ff;padding:10px 15px;border-radius:12px;display:none;z-index:8;font-size:12px}.toast.show{display:block}
+@media(max-width:1050px){.layout{grid-template-columns:190px minmax(0,1fr)}.right{grid-column:2;display:grid;grid-template-columns:1fr 1fr}.right .quickpanel{grid-column:1/-1}.motto{display:none}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.wrap{padding:10px}.banner{padding:22px 16px;min-height:135px}.sigil{width:58px;height:58px;font-size:35px;margin-right:13px}.banner h1{font-size:23px;letter-spacing:.1em}.banner p{font-size:9px;letter-spacing:.1em}.layout{grid-template-columns:1fr;gap:10px}.side{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.brandmini{grid-column:1/-1;padding-bottom:10px}.nav{padding:9px 7px;font-size:10px;justify-content:center;gap:5px;flex-direction:column;text-align:center}.nav .ico{font-size:15px}.sidequote{display:none}.right{grid-column:auto;display:flex}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.welcome{min-height:205px}.welcome .sub{font-size:8px;letter-spacing:.12em}.newsitem{grid-template-columns:32px minmax(0,1fr)}.newsdate{grid-column:2}.tier{font-size:9px}.panel{padding:13px}.footer{line-height:2}}
+</style></head>
+<body data-invite="https://discord.gg/pZNaWfUhgz"><div class="wrap" id="app">
+<header class="banner"><img class="sigil" src="assets/azazels-emblem.png" alt="THE AZAZELS emblem"><div><div class="eyebrow">The original community</div><h1>THE AZAZELS</h1><p>More than an ally · A family</p></div><div class="motto">STRONGER<br>TOGETHER<br>HIGHER FOREVER.</div></header>
+<div class="layout">
+<aside class="panel side"><div class="brandmini"><img class="miniicon" src="assets/azazels-emblem.png" alt="THE AZAZELS emblem"><div><strong>THE AZAZELS</strong><small>Community Hub</small></div></div>
+<a class="nav active" href="#home"><span class="ico">⌂</span>Home</a><a class="nav" href="#announcements"><span class="ico">⚑</span>Announcements</a><a class="nav" href="#stats"><span class="ico">▥</span>Server Stats</a><a class="nav" href="#news"><span class="ico">♜</span>Achievements</a><a class="nav" href="#community"><span class="ico">♟</span>Our Community</a><a class="nav" href="#rules"><span class="ico">▤</span>Rules &amp; Info</a><a class="nav" href="#war"><span class="ico">⚔</span>War Council</a><a class="nav" href="#theme"><span class="ico">✥</span>Theme Studio</a><a class="nav" href="#links"><span class="ico">↗</span>Quick Links</a>
+<div class="sidequote">THE FLAME<br>NEVER DIES.<br>WE ARE NOT<br>DONE.<br><br>♛</div></aside>
+<main class="main" id="home"><section class="panel welcome"><div><div class="crown">♛</div><div class="eyebrow">Family · Respect · Growth</div><h2>WELCOME TO<br>THE AZAZELS</h2><div class="sub">FAMILY &nbsp; / &nbsp; RESPECT &nbsp; / &nbsp; STAY ACTIVE &nbsp; / &nbsp; GROW</div><button class="btn primary" id="joinBtn">◉ &nbsp; Join Our Discord ↗</button></div></section>
+
+<section class="panel" id="stats"><div class="sectionhead"><h3><span class="icon">▥</span> Server Overview</h3><span class="live">● COMMUNITY SNAPSHOT</span></div><div class="stats">
+<div class="stat"><div class="bigico">♟</div><div class="label">Members</div><div class="value" data-stat="members">29</div><div class="hint">Official community count</div></div>
+<div class="stat"><div class="bigico">♛</div><div class="label">Ally Rating</div><div class="value" data-stat="rating">306M+</div><div class="hint">Owner-maintained figure</div></div>
+<div class="stat"><div class="bigico">🏆</div><div class="label">War Tier</div><div class="value" data-stat="tier">GOLD 2</div><div class="hint">Current season</div></div>
+<div class="stat"><div class="bigico">⬡</div><div class="label">Prestige</div><div class="value" data-stat="prestige">37k+</div><div class="hint">Owner-maintained figure</div></div></div>
+<div class="progressbox"><div class="progresshead"><strong>Competitive Journey</strong><span style="color:var(--muted)">UPDATED</span></div><div class="track"><span></span></div><div class="tiers"><div class="tier"><b>✥</b>G3</div><div class="tier"><b>✥</b>G2</div><div class="tier"><b>✥</b>G1</div><div class="tier current"><b>♛</b>G2<br>Current</div><div class="tier"><b>♢</b>P3</div><div class="tier"><b>♢</b>P1<br>Goal</div></div></div></section>
+<section class="panel" id="news"><div class="sectionhead"><h3><span class="icon">♛</span> Latest News &amp; Achievements</h3></div><div class="newslist" id="newslist"><div class="newsitem"><div class="newsicon">⚔</div><div><strong>Our next chapter begins</strong><p>New goals. Same fire. The climb continues.</p></div><div class="newsdate">Pinned</div></div><div class="newsitem"><div class="newsicon">🏆</div><div><strong>Community milestone</strong><p>Celebrate progress and recognize the warriors behind it.</p></div><div class="newsdate">Update</div></div><div class="newsitem"><div class="newsicon">✦</div><div><strong>Welcome to new members</strong><p>Respect the family. Participate. Grow together.</p></div><div class="newsdate">Welcome</div></div></div></section></main>
+<aside class="right"><section class="panel" id="announcements"><div class="sectionhead"><h3>⚑ Latest Announcement</h3></div><div class="announce"><div class="announcehead"><strong>📌 &nbsp;<span id="announceTitle">A Message to the Family</span></strong><span style="color:var(--muted)">Pinned</span></div><div class="announcebody"><p id="announceText">THE AZAZELS
+
+THE LAWS OF THE REALM
+
+Strength earns respect. Loyalty earns a place. Discipline keeps the realm standing.
+
+I. — RESPECT THE REALM
+Treat every member with respect. Harassment, personal attacks, discrimination, and unnecessary toxicity are not tolerated.
+
+II. — HONOR YOUR COMMITMENTS
+If you sign up for Alliance War, Alliance Quest, or another alliance activity, participate responsibly. Inform leadership if something prevents you from completing your assigned duties.
+
+III. — WAR DISCIPLINE
+Follow assigned paths, tactics, and leadership instructions. Communicate before making major changes to your assignment. Repeated negligence may result in a review of your position.
+
+IV. — COMMUNICATION IS MANDATORY
+Read official announcements and check important updates regularly. If an officer asks for confirmation, respond within the stated deadline.
+
+V. — ACTIVITY &amp; INACTIVITY
+Stay active according to the alliance's expectations. If you need a break, inform leadership in advance whenever possible. Extended unexplained inactivity may result in removal.
+
+
+VI. — RESPECT THE CHAIN OF COMMAND
+Officers are responsible for coordination and fair enforcement. You may question a decision respectfully, but do not disrupt alliance activities over disagreements.
+
+VII. — CONSEQUENCES Rule violations may lead to a warning, temporary restrictions, removal from an activity, or removal from the alliance, depending on severity and repeated behavior. Serious violations may require immediate action.
+
+━━━━━━━━━━━━━━━━━━━━
+
+♛ THE AZAZELS CODE
+
+Stay loyal. Stay active. Respect the realm. Grow stronger together.
+
+One alliance. One standard. No unnecessary chaos</p><p><strong>Our principles:</strong></p><ul><li>Respect every member</li><li>Stay active and participate</li><li>Keep improving together</li></ul><p class="byline">— The Azazels Council</p></div></div></section>
+<section class="panel" id="theme"><div class="sectionhead"><h3>◉ Theme Studio</h3><span style="font-size:10px;color:var(--muted)">Preview</span></div><div class="themebanner"><div class="A">♛ A</div><span>THE AZAZELS</span></div><div class="swatches"><button class="swatch selected" data-color="#a875ff" style="background:#a875ff" aria-label="Royal purple"></button><button class="swatch" data-color="#d1a7ff" style="background:#d1a7ff" aria-label="Lavender"></button><button class="swatch" data-color="#b58b55" style="background:#b58b55" aria-label="Antique gold"></button><button class="swatch" data-color="#65b9ce" style="background:#65b9ce" aria-label="Ice blue"></button></div><div class="theme-row"><span>Font style</span><b>Elegant serif</b></div><div class="theme-row"><span>Theme vibe</span><b>Ancient · Royal · Dark</b></div><div class="theme-row"><span>Banner</span><b>Custom artwork</b></div><div class="theme-row"><span>Accent</span><b id="accentName">Royal purple</b></div></section>
+<section class="panel quickpanel" id="links"><div class="sectionhead"><h3>↗ Quick Links</h3></div><div class="quicklinks"><button data-link="discord">◉ Discord Server</button><button data-link="rules">▤ Rules &amp; Guidelines</button><button data-link="invite">♟ Invite Friends</button><button data-link="officers">⬡ Contact Council</button></div><p style="color:var(--muted);font-size:10px;margin:12px 0 0">The site owner can configure official links before publishing.</p></section></aside></div>
+<footer class="footer">♛ &nbsp; <strong>THE AZAZELS</strong> &nbsp; • &nbsp; COMMUNITY COMMAND CENTER &nbsp; • &nbsp; BUILT ON FAMILY, RESPECT &amp; GROWTH</footer>
+
+</div>
+<div style="position:fixed;right:16px;bottom:16px;z-index:4"><button class="btn primary" id="ownerEditBtn">⚙ Edit Site Content</button></div>
+<div class="editor open" id="ownerEditor"><div class="modal"><h3>⚙ Owner: Update Public Site</h3><p style="color:var(--muted);font-size:12px">Edit your stats and announcement, then download a refreshed HTML file. Upload that file to GitHub to update the public website for everyone.</p>
+<label class="field">Discord invite URL<input id="fInvite" placeholder="https://discord.gg/your-invite"></label>
+<label class="field">Discord community members<input id="fMembers" placeholder="e.g. 29 / 30"></label>
+<label class="field">Alliance rating<input id="fRating" placeholder="e.g. 300M+"></label>
+<label class="field">Current war tier<input id="fTier" placeholder="e.g. P4"></label>
+<label class="field">Alliance prestige<input id="fPrestige" placeholder="e.g. 36,000+"></label>
+<label class="field">Announcement title<input id="fAnnTitle" placeholder="A Message to the Family"></label>
+<label class="field">Announcement message<textarea id="fAnnText" placeholder="Write your public announcement..."></textarea></label>
+<div class="modalactions"><button class="btn" id="ownerCancel">Cancel</button><button class="btn primary" id="ownerDownload">Save &amp; Download Updated Site</button></div></div></div>
+<div class="toast" id="toast">Updated index.html downloaded. Upload it to GitHub to publish changes.</div>
+<script>
+const $=s=>document.querySelector(s);
+const $$=s=>[...document.querySelectorAll(s)];
+const DISCORD_INVITE = "https://discord.gg/pZNaWfUhgz";
+const RULES_URL = "";
+const COUNCIL_CONTACT_URL = "";
+function toast(msg){
+  const t=$("#toast"); t.textContent=msg; t.classList.add("show");
+  setTimeout(()=>t.classList.remove("show"),2400);
+}
+function openInvite(){
+  const invite = document.body.dataset.invite || DISCORD_INVITE;
+  if(invite.startsWith("https://discord.gg/") || invite.startsWith("https://discord.com/invite/")){
+    window.open(invite,"_blank","noopener,noreferrer");
+  } else { toast("The site owner needs to add the official Discord invite before publishing."); }
+}
+const editor = $("#ownerEditor");
+$("#ownerEditBtn").onclick=()=>{ editor.classList.add("open");
+  $("#fInvite").value=document.body.dataset.invite || (DISCORD_INVITE.includes("PASTE_")?"":DISCORD_INVITE);
+  $("#fMembers").value=document.querySelector('[data-stat="members"]').textContent.trim()==="Update me"?"":document.querySelector('[data-stat="members"]').textContent.trim();
+  $("#fRating").value=document.querySelector('[data-stat="rating"]').textContent.trim()==="Update me"?"":document.querySelector('[data-stat="rating"]').textContent.trim();
+  $("#fTier").value=document.querySelector('[data-stat="tier"]').textContent.trim()==="Update me"?"":document.querySelector('[data-stat="tier"]').textContent.trim();
+  $("#fPrestige").value=document.querySelector('[data-stat="prestige"]').textContent.trim()==="Update me"?"":document.querySelector('[data-stat="prestige"]').textContent.trim();
+  $("#fAnnTitle").value=$("#announceTitle").textContent.trim(); $("#fAnnText").value=$("#announceText").textContent.trim();
+};
+$("#ownerCancel").onclick=()=>editor.classList.remove("open");
+$("#ownerDownload").onclick=()=>{
+  const values={members:$("#fMembers").value.trim()||"Update me",rating:$("#fRating").value.trim()||"Update me",tier:$("#fTier").value.trim()||"Update me",prestige:$("#fPrestige").value.trim()||"Update me"};
+  Object.entries(values).forEach(([k,v])=>document.querySelector(`[data-stat="${k}"]`).textContent=v);
+  $("#announceTitle").textContent=$("#fAnnTitle").value.trim()||"A Message to the Family";
+  $("#announceText").textContent=$("#fAnnText").value.trim()||"The next chapter of THE AZAZELS starts with all of us.";
+  const invite=$("#fInvite").value.trim();
+  let output=document.documentElement.cloneNode(true);
+  output.querySelector("body").dataset.invite=invite;
+  // Persist the invite in the generated site's config line.
+  let outHtml='<!doctype html>\n'+output.outerHTML;
+  outHtml=outHtml.replace('const DISCORD_INVITE = "https://discord.gg/pZNaWfUhgz";', 'const DISCORD_INVITE = '+JSON.stringify(invite||"PASTE_YOUR_DISCORD_INVITE_HERE")+';');
+  const blob=new Blob([outHtml],{type:"text/html;charset=utf-8"});
+  const url=URL.createObjectURL(blob); const a=document.createElement("a"); a.href=url; a.download="index.html"; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  editor.classList.remove("open"); toast("Updated index.html downloaded. Upload it to GitHub to publish changes.");
+};
+$("#joinBtn").onclick=openInvite;
+$$(".swatch").forEach(b=>b.onclick=()=>{
+  document.documentElement.style.setProperty("--purple",b.dataset.color);
+  $$(".swatch").forEach(x=>x.classList.toggle("selected",x===b));
+  $("#accentName").textContent=({"#a875ff":"Royal purple","#d1a7ff":"Lavender","#b58b55":"Antique gold","#65b9ce":"Ice blue"})[b.dataset.color];
+});
+$$("[data-link]").forEach(b=>b.onclick=()=>{
+  const type=b.dataset.link;
+  if(type==="discord" || type==="invite"){openInvite();return;}
+  if(type==="rules" && RULES_URL){window.open(RULES_URL,"_blank","noopener,noreferrer");return;}
+  if(type==="officers" && COUNCIL_CONTACT_URL){window.open(COUNCIL_CONTACT_URL,"_blank","noopener,noreferrer");return;}
+  if(type==="rules"){document.querySelector("#rules")?.scrollIntoView({behavior:"smooth"});return;}
+  toast("The site owner can add this link before publishing.");
+});
+</script>
+</body></html>
